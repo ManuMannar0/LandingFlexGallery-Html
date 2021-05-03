@@ -99,10 +99,7 @@
     .works > button{
         color: black;
     }
-    .menu-portfolio{
-        display: flex;
-        padding: 0 22rem 0 22rem;
-    }
+
     .menu-button{
         width: 16.66%;
     }
