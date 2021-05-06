@@ -1,5 +1,5 @@
 /*COMMENT
-    - rem o em?
+    - rem o em? (partire font size)
     - non riesco ad usare fontawesome
 */
 
@@ -86,8 +86,6 @@
 /*PORTFOLIO*/
 .navigation{
     padding-top: 2rem;
-    width: 70%;
-    margin: auto;
 }
     ul{
         list-style: none; 
