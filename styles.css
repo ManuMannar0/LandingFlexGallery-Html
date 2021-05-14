@@ -1,5 +1,5 @@
 /*COMMENT
-    - rem o em?
+    - rem o em? (partire font size)
     - non riesco ad usare fontawesome
 */
 
@@ -91,7 +91,9 @@
         list-style: none; 
         margin: 0; 
         padding: 0; 
-        display: inline-flex; 
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: center;
     }
     li{
         padding: 0 1rem 0 1rem;
