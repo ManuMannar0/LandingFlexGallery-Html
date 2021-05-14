@@ -1,19 +1,9 @@
-<<<<<<< HEAD
 /**
- * /*COMMENT
- *     - rem o em?
- *     - non riesco ad usare fontawesome
+ * /*FONTS
  *
  * @format
  */
-=======
-/*COMMENT
-    - rem o em? (partire font size)
-    - non riesco ad usare fontawesome
-*/
->>>>>>> e94a228a00495dd4008f5536fe138474de307a55
 
-/*FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*/FONTS*/
 
@@ -97,53 +87,53 @@ button {
 /*/ARTICLE1*/
 
 /*PORTFOLIO*/
-.navigation{
-    padding-top: 2rem;
+.navigation {
+  padding-top: 2rem;
 }
-    ul{
-        list-style: none; 
-        margin: 0; 
-        padding: 0; 
-        display: flex; 
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    li{
-        padding: 0 1rem 0 1rem;
-    }
-    .works > button{
-        color: black;
-    }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+li {
+  padding: 0 1rem 0 1rem;
+}
+.works > button {
+  color: black;
+}
 
-    .menu-button{
-        width: 16.66%;
-    }
-    .card{
-        height: 65vw;
-        padding: 1rem;
-        overflow: hidden;
-    }
-    .full-height{
-        height: 100%;
-    }
-    .background-portfolio-image-file1{
-        background-image: url("img/works/art-1851483_1920.jpg");
-    }
-    .background-portfolio-image-file2{
-        background-image: url("img/works/drawing-1791799_1920.jpg");
-    }
-    .background-portfolio-image-file3{
-        background-image: url("img/works/hand-845271_1920.jpg");
-    }
-    .background-portfolio-image-file4{
-        background-image: url("img/works/office-594132_1920.jpg");
-    }
-    .background-portfolio-image-file5{
-        background-image: url("img/works/pencil-5690142_1920.jpg");
-    }
-    .background-portfolio-image-file6{
-        background-image: url("img/works/drawing-1791799_1920.jpg");
-    }
+.menu-button {
+  width: 16.66%;
+}
+.card {
+  height: 65vw;
+  padding: 1rem;
+  overflow: hidden;
+}
+.full-height {
+  height: 100%;
+}
+.background-portfolio-image-file1 {
+  background-image: url("img/works/art-1851483_1920.jpg");
+}
+.background-portfolio-image-file2 {
+  background-image: url("img/works/drawing-1791799_1920.jpg");
+}
+.background-portfolio-image-file3 {
+  background-image: url("img/works/hand-845271_1920.jpg");
+}
+.background-portfolio-image-file4 {
+  background-image: url("img/works/office-594132_1920.jpg");
+}
+.background-portfolio-image-file5 {
+  background-image: url("img/works/pencil-5690142_1920.jpg");
+}
+.background-portfolio-image-file6 {
+  background-image: url("img/works/drawing-1791799_1920.jpg");
+}
 /*/PORTFOLIO*/
 
 /*ARTICLE2*/
