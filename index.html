@@ -1,134 +1,164 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>PSD Project - flexbox</title>
-        <script src="https://use.fontawesome.com/4cac57ec6f.js"></script>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="container">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PSD Project - flexbox</title>
+    <script src="https://use.fontawesome.com/4cac57ec6f.js"></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/45663e8a45.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <!-- menu -->
+      <section class="menu">
+        <i class="fab fa-adn"></i>
+      </section>
 
-<!-- menu button -->
-            <div class="menu">
-                <img src="img/menu-icon.svg" id="menu-icon">
-            </div>
-            
-            <div class="box background-image background-header-image-file no-padding-bottom">
-                <div class="header">
-                    <h1>WE'VE GOT THE TALENT</h1>
-                    <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor arcu.
-                        <br>
-                        ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor.
-                    </p>
-                    <img src="img/mouse-icon.svg" class="mouse-icon">
-                </div>
-            </div>
+      <!-- header -->
+      <header class="header">
+        <h1>WE'VE GOT THE TALENT</h1>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          porttitor arcu.
+        </p>
+        <p>
+          ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor.
+        </p>
+        <p class="header__bottom--icon">
+          <i class="fab fa-html5"></i>
+        </p>
+      </header>
 
-<!-- introduction -->
-            <div class="box">
-                <div class="intro">
-                    <h1>INTRODUCTION</h1>
-                    <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor arcu.
-                        <br>
-                        ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor.
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor arcu.
-                    </p>
-                </div>
-            </div>
-    
-<!-- article 1 -->
-            <div class="box background-image background-article1-image-file">
-                <div class="article-1">
-                    <div class="article">
-                        <button>Pure Creativity.</button>
-                    </div>
-                </div>
-            </div>
-    
-<!-- portfolio -->
-            <div class="box">
-                <div class="works">
-                    <h1>SOME OF OUR WORKS</h1>
-                    <hr>
-                    <div class="portfolio">
-                        <div class="navigation">
-                            <ul>
-                                <li><a>ALL</a></li>
-                                <li><a>BRANDING</a></li>
-                                <li><a>WEB DESIGN</a></li>
-                                <li><a>MOBILE UI</a></li>
-                                <li><a>ILLUSTRATIONS</a></li>
-                             </ul> 
-                        </div>
-                        <div class="images-portfolio padding-content">
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/pencil-5690142_1920.jpg" class="img-card">
-                                </div>
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/drawing-1791799_1920.jpg" class="img-card">
-                                </div>
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/hand-845271_1920.jpg" class="img-card">
-                                </div>
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/office-594132_1920.jpg" class="img-card">
-                                </div>
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/drawing-1791799_1920.jpg" class="img-card">
-                                </div>
-                                <div class=" card col-t-6 col-d-4">
-                                    <img src="img/works/plan-5370032_1920.jpg" class="img-card">
-                                </div> 
-                        </div>
-                    </div>
-                    <button>Show me more</button>
-                </div>
-            </div>
+      <!-- introduction -->
+      <section class="intro">
+        <h1>INTRODUCTION</h1>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          porttitor arcu.
+          <br />
+          ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor.
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          porttitor arcu.
+        </p>
+      </section>
 
-<!-- article 2 -->
-            <div class="box background-image background-article2-image-file">
-                <div class="article-2">
-                    <div class="article">
-                        <button>We're here to help.</button>
-                    </div>
-                </div>
-            </div>
-    
-<!-- footer -->
-            <div class="box">
-                <div class="footer">
-                    <h1>OUR CLIENTS</h1>
-                    <hr>
-                    <div class="clients padding-content">
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_1_Instagram_colored_svg_1_5296765.png">
-                        </div>
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_1_Tumblr2_colored_svg_5296511.png">
-                        </div>
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_1_Youtube_colored_svg_5296521.png">
-                        </div>
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_Colored_Facebook3_svg_5365678.png">
-                        </div>
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_logo_7086697.png">
-                        </div>
-                        <div class="col-t-4 col-d-2">
-                            <img class="clients-logo" src="img/clients/iconfinder_logo_7086697.png">
-                        </div> 
-                    </div>
-                </div>
-            </div>
+      <!-- article 1 -->
+      <section class="article1 article1--background-image">
+        <button type="button" class="article1__button">Pure Creativity.</button>
+      </section>
 
-        </div>
-    </body>
+      <!-- portfolio -->
+      <section class="portfolio">
+        <h1>SOME OF OUR WORKS</h1>
+        <hr />
+        <ul class="portfolio__menu">
+          <li><a class="portfolio__menu-item">ALLL</a></li>
+          <li><a class="portfolio__menu-item">BRANDING</a></li>
+          <li><a class="portfolio__menu-item">WEB DESIGN</a></li>
+          <li><a class="portfolio__menu-item">MOBILE UI</a></li>
+          <li><a class="portfolio__menu-item">ILLUSTRATIONS</a></li>
+        </ul>
+        <ul class="portfolio__gallery">
+          <li>
+            <img
+              src="img/works/pencil-5690142_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/works/drawing-1791799_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/works/hand-845271_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/works/office-594132_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/works/drawing-1791799_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/works/plan-5370032_1920.jpg"
+              class="portfolio__gallery-item"
+            />
+          </li>
+        </ul>
+        <button type="button" class="portfolio__button">Show me more</button>
+      </section>
+
+      <!-- article 2 -->
+
+      <section class="article2 article2--background-image">
+        <button type="button" class="article2__button">
+          We're here to help.
+        </button>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <h1>OUR CLIENTS</h1>
+        <hr />
+        <ul class="footer__logos">
+          <li>
+            <img
+              src="img/clients/iconfinder_1_Instagram_colored_svg_1_5296765.png"
+              class="footer__logos--item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/clients/iconfinder_1_Tumblr2_colored_svg_5296511.png"
+              class="footer__logos--item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/clients/iconfinder_1_Youtube_colored_svg_5296521.png"
+              class="footer__logos--item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/clients/iconfinder_Colored_Facebook3_svg_5365678.png"
+              class="footer__logos--item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/clients/iconfinder_logo_7086697.png"
+              class="footer__logos--item"
+            />
+          </li>
+          <li>
+            <img
+              src="img/clients/iconfinder_1_Tumblr2_colored_svg_5296511.png"
+              class="footer__logos--item"
+            />
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
-
