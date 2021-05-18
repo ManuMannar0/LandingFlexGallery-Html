@@ -45,7 +45,7 @@ COMPONENTS
   background-image: url("img/works/technology-785742_1920.jpg");
 }
 
-.header__bottom--icon {
+.header__bottomIcon {
   position: absolute;
   width: 100vw;
   bottom: 3rem;
@@ -72,7 +72,7 @@ COMPONENTS
   flex-flow: row wrap;
   justify-content: center;
 }
-.portfolio__menu-item {
+.portfolio__menuItem--margin {
   margin-left: 1rem;
 }
 .portfolio__gallery {
@@ -85,7 +85,7 @@ COMPONENTS
   flex-direction: row;
   align-content: center;
 }
-.portfolio__gallery-item {
+.portfolio__galleryItem {
   width: 20rem;
   margin: 0 1rem 1rem 0;
 }
@@ -107,7 +107,7 @@ COMPONENTS
   flex-direction: row;
   align-content: center;
 }
-.footer__logos--item {
+.footer__logoItem {
   width: 2rem;
   padding-bottom: 1rem;
 }
