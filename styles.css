@@ -42,7 +42,7 @@ COMPONENTS
 /*header*/
 .header {
   height: 100vh;
-  background-image: url("img/works/technology-785742_1920.jpg");
+  background-image: url("imgs/works/technology-785742_1920.jpg");
 }
 
 .header__bottomIcon {
@@ -53,10 +53,10 @@ COMPONENTS
 
 /*articles*/
 .article1--background-image {
-  background-image: url("img/works/student-849825_1920.jpg");
+  background-image: url("imgs/works/student-849825_1920.jpg");
 }
 .article2--background-image {
-  background-image: url("img/works/plans-1867745_1920.jpg");
+  background-image: url("imgs/works/plans-1867745_1920.jpg");
 }
 .article1__button,
 .article2__button {
