@@ -355,12 +355,20 @@ template {
 }
 
 /*
-   * ManuMannar0
+   * ManuMannar0 CSS
      ========================================================================== */
-*/ ul {
+
+ul {
   padding-left: 0;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
